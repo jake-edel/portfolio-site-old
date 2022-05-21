@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.headshot {
+  background-color: rgb(0, 0, 0);
+  float: left;
+}
+
+.name {
+  background-color: rgb(178, 178, 178);
+}
+
+.about{
+  width: 50%;
+}
+
+.project-list {
+  position: relative;
+  left: 0%;
+}
+
+a {
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.resume {
+  outline: 5px solid black;
+  width: 800px;
+  position:relative;
+  left: 10px;
+
+  /* float: center; */
+  
+}
+
+.debug {
+  outline: 3px solid red;
+}
