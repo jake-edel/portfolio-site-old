@@ -6,7 +6,7 @@ const Contact = () => {
             <div>
                 <Navbar></Navbar>
             </div>
-            <div>
+            <div className="contact">
                 <h2>Contact</h2>
                 <h3>jakobedelstein@gmail.com</h3>
                 <h3>(516)459-3979</h3>

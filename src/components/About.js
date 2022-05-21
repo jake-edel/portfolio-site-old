@@ -4,8 +4,8 @@ const About = () => {
     return (
     <div>
         <Navbar></Navbar>
-        <h2>About</h2>
         <div className="about">
+            <h2>About</h2>
             <p>Jakob Edelstein is an aspiring software developer. In my previous career, I designed 
                 and built steel architectural products for a metal fabrication company. After expanding 
                 my skill set into software development, attending classes at the Turing School of 
