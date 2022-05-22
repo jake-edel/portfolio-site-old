@@ -54,6 +54,12 @@ main {
 .project-list {
   position: relative;
   left: 0%;
+  list-style-type: none;
+
+}
+
+.portfolio-list-item {
+  padding-bottom: 10px;
 }
 
 a {
@@ -66,7 +72,7 @@ ul {
   padding: 0;
 }
 
-li {
+.navlink {
   display: inline;
   padding-right: 10px;
 }
