@@ -1,4 +1,3 @@
-import './App.css';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -11,7 +10,6 @@ function App() {
   return (
     <main>
       <div className='sidebar'>
-        {/* <img src={headshot} className='headshot' alt='Jakob Edelstein Headshot'></img> */}
         <div className='mobile-spacer'>
           <div className='profile-image-container'></div>
         </div>
