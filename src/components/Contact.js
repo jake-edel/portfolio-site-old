@@ -1,11 +1,7 @@
-import Navbar from "./Navbar"
 
 const Contact = () => {
     return( 
         <>
-            <div>
-                <Navbar></Navbar>
-            </div>
             <div className="contact">
                 <h2>Contact</h2>
                 <h3>jakobedelstein@gmail.com</h3>

@@ -1,9 +1,6 @@
-import Navbar from "./Navbar";
-
 const About = () => {
     return (
     <div>
-        <Navbar></Navbar>
         <div className="about">
             <h2>About</h2>
             <p>Jakob Edelstein is an aspiring software developer. In my previous career, I designed 

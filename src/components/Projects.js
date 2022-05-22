@@ -1,15 +1,11 @@
-import Navbar from "./Navbar";
 
 function Projects(props) {
   return (
      <>
         <div>
-            <Navbar></Navbar>
-        </div>
-        <div>
             <h2>Projects</h2>
             <ul className="project-list">
-                <li><a href="https://github.com/jake-edel/ce_console.net_4.6.1">A cost estimation program</a> to calculate the price of a stair tower based on top level parameters. Written in C#</li>
+                <li><a href="https://github.com/jake-edel/ce_console.net_4.6.1">A cost estimation program</a> to calculate the price of a stair tower based on top level parameters. Written in C# for Method Stair System.</li>
                 <br/><br/>
                 <li><a href="https://github.com/jake-edel/freecad-py">Python scripting</a> to extract part parameters from a CAD model and use it to configure part designs for fabrication and assembly.</li>
                 <br/><br/>
