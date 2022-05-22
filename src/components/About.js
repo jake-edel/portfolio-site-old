@@ -8,7 +8,6 @@ const About = () => {
                 my skill set into software development, attending classes at the Turing School of 
                 Software and Design, I'm currently a software development intern with a new fabrication company, which 
                 uses software to interface with CAD systems and drive fabrication design and shop operations.</p>
-            <h1>Deployment Test 2</h1>
         </div>
     </div>
     )
