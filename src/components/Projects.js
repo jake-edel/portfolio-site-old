@@ -2,7 +2,6 @@
 import PortfolioListItem from './PortfolioListItem';
 import { portfolioItems } from '../utils/constants.js'
 
-console.log(portfolioItems)
 
 const Projects = () => {
 
