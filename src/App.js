@@ -3,6 +3,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Navbar from './components/Navbar';
+import Test from './components/Test';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
@@ -26,6 +27,7 @@ function App() {
               <Route path='/projects' exact element={<Projects/>}></Route>
               <Route path='/contact' exact element={<Contact/>}></Route>
               <Route path='/resume' exact element={<Resume/>}></Route>
+              {/* <Route path='/test' exact element={<Test/>}></Route> */}
             </Routes>
         </Router>
       </div>
