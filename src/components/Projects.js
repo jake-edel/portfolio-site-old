@@ -13,6 +13,7 @@ const Projects = () => {
     return (
       <PortfolioListItem 
       to={projectUrl}
+      key={projectUrl}
       linkText={linkText}
       linkDescription={linkDescription}
     />
