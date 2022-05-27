@@ -12,7 +12,7 @@ const mockData = [
 
 const Test = () => {
     const [popData, setPopData] = useState(mockData)
-    const [popType, setPopType] = useState("Nation")
+    const [popType, setPopType] = useState("State")
     
     const getData = () => 
         fetch(`https://datausa.io/api/data?drilldowns=${popType}&measures=Population`)
@@ -23,7 +23,7 @@ const Test = () => {
         () => {
             getData().then(data => {
                 console.log(data.data)
-                setPopData(data.data.slice(0, 50))
+                setPopData(data.data.slice(0, 52))
             })
 
             return () => {console.log("unmount")}
